@@ -20,7 +20,7 @@ function Sidebar({ onClose, onSelectChat, onNewChat }) {
   const handleLogout = async () => {
     try {
       const { data } = await axios.get(
-        "http://localhost:4002/api/v1/user/logout",
+        "https://deepseek-backend-ifa4.onrender.com/api/v1/user/logout",
         {
           withCredentials: true,
         }
