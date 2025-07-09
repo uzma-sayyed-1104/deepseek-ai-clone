@@ -4,7 +4,7 @@ import { Prompt } from "../model/promt.model.js"
 
 
 const openai = new OpenAI({
-    baseURL: 'https://api.deepseek.com',
+    baseURL: 'https://deepseek-ai-clone.onrender.com',
     apiKey: process.env.OPENAI_API_KEY
 });
 console.log(openai.apiKey);
