@@ -30,7 +30,7 @@ function Promt({ promt, setPromt }) {
       const user = JSON.parse(localStorage.getItem("user"));
 
       const { data } = await axios.post(
-        "http://localhost:4002/api/v1/deepseekai/promt",
+        "https://deepseek-backend-ifa4.onrender.com/api/v1/deepseekai/promt",
         { content: trimmed },
         {
           headers: {
