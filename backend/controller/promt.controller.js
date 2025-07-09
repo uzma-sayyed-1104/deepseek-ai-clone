@@ -1,3 +1,5 @@
+import dotenv from "dotenv";
+dotenv.config(); 
 import OpenAI from "openai";
 import { Prompt } from "../model/promt.model.js";
 
