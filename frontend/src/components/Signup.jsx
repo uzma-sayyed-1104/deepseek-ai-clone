@@ -29,7 +29,7 @@ function Signup() {
         setLoading(true);
         setError("");
         try {
-            const data=await axios.post("https://deepseek-backend-ifa4.onrender.com/api/v1/user/signup", {
+            const data=await axios.post("https://deepseek-backend-tdvd.onrender.com/api/v1/user/signup", {
                 firstName: formData.firstName,
                 lastName: formData.lastName,
                 email: formData.email,
