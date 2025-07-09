@@ -30,7 +30,7 @@ function Login() {
     setError("");
     try {
       const { data } = await axios.post(
-        "http://localhost:4002/api/v1/user/login",
+        "https://deepseek-backend-ifa4.onrender.com/api/v1/user/login",
         {
           email: formData.email,
           password: formData.password,
